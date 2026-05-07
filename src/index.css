@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* 🔥 Custom Glow Animation */
+@keyframes glowPulse {
+
+    0%,
+    100% {
+        box-shadow: 0 0 0px rgba(168, 85, 247, 0.2);
+    }
+
+    50% {
+        box-shadow: 0 0 25px rgba(168, 85, 247, 0.6);
+    }
+}
+
+/* Utility class */
+.animate-glow {
+    animation: glowPulse 1.3s ease-in-out infinite;
+}
+
+/* Smooth Bounce Animation */
+@keyframes smoothBounce {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-25px);
+    }
+}
+
+.animate-bounce-smooth {
+    animation: smoothBounce 2s ease-in-out infinite;
+}
