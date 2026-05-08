@@ -6,7 +6,8 @@ const Tech = () => {
         { name: "Express.js", color: "from-gray-400 to-gray-600" },
         { name: "MongoDB", color: "from-green-500 to-lime-500" },
         { name: "Socket.IO", color: "from-purple-400 to-pink-500" },
-        { name: "AI Particles", color: "from-pink-500 to-purple-600" },
+        { name: "Particle Simulator", color: "from-pink-500 to-purple-600" },
+        { name: "AI Modules", color: "from-pink-500 to-purple-600" }
     ];
 
     return (

@@ -23,9 +23,15 @@ SwiftConnect                </h1>
 An AI-Powered Real-Time Messaging Platform with Multimedia Sharing and UPI Integration                </p>
 
                 <div className="mt-6 flex gap-4 justify-center">
-                    <button className="px-6 py-3 bg-purple-600 rounded-lg hover:scale-105 transition cursor-pointer" >
-                        View Demo
-                    </button>
+                    <a
+                        href="https://quick-chat-client-indol-one.vercel.app/login"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <button className="px-6 py-3 bg-purple-600 rounded-lg hover:scale-105 transition cursor-pointer">
+                            View Demo
+                        </button>
+                    </a>
 
                     <Link
                         to="about"
